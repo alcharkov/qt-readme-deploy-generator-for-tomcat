@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1101</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="apiListWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>131</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::MultiSelection</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>war</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>properties</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>jasperReports</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>31</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Api:</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>20</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>20</y>
+      <width>31</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>App:</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>10</y>
+      <width>20</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="appListWidget">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>131</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::MultiSelection</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>war</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>properties</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>jasperReports</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>10</y>
+      <width>20</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>20</y>
+      <width>31</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Svc:</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="svcListWidget">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>40</y>
+      <width>131</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::MultiSelection</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>war</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>properties</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>531</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Db:</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="dbUpdateCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>update script</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="dbRollbackCheckbox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>330</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>rollback script</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>270</y>
+      <width>20</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>270</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Web:</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="webCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>300</y>
+      <width>92</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>include</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="generatedTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>583</x>
+      <y>29</y>
+      <width>501</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>270</y>
+      <width>20</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="makeButton">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>410</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Make</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="apiSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>42</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="appSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>20</y>
+      <width>42</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="value">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="svcSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>20</y>
+      <width>42</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_9">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_10">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>20</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nodes</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>20</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nodes</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>20</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nodes</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1101</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>handleButton()</slot>
+ </slots>
+</ui>
